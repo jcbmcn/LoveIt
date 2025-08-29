@@ -423,7 +423,8 @@ var Theme = /*#__PURE__*/function () {
         showZoomInOutIcons: true
       });
     }
-  }, {
+  }, 
+  {
     key: "initHighlight",
     value: function initHighlight() {
       Util.forEach(document.querySelectorAll('.code-block'), function ($codeBlock) {
@@ -455,7 +456,8 @@ var Theme = /*#__PURE__*/function () {
         }
       });
     }
-  }, {
+  }, 
+  {
     key: "initHeaderLink",
     value: function initHeaderLink() {
       for (var num = 1; num <= 6; num++) {
